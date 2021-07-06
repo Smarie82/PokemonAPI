@@ -10,10 +10,18 @@ html, body {
 }
 
 .card {
+    border: none;
+}
 
+#background {
+    background-image: url("./PokeAssets/Pika Background.jpeg");
+    position: relative;
+    background-size: cover;
 }
 
 body {
-    background-color: yellow;
+    
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
