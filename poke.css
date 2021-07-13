@@ -7,10 +7,20 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card {
     border: none;
+    background-color: transparent;
+}
+
+.card-title {
+    font-size: 60px;
+}
+
+.card-text {
+    font-size: 20px;
 }
 
 #background {
@@ -19,9 +29,18 @@ html, body {
     background-size: cover;
 }
 
+.list-group-item {
+    background-color: transparent;
+}
+
+
 body {
     
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+ul {
+    list-style-type: none;
 }
